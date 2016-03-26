@@ -3,6 +3,7 @@
 
 Vagrant.configure("2") do |config|
     config.vm.box = "perconajayj/centos-x86_64"
+
     config.vbguest.auto_update = false
 
     # Master
@@ -16,5 +17,5 @@ Vagrant.configure("2") do |config|
         slave.vm.network "private_network", ip: "192.168.10.101"
         slave.vm.hostname = "slave"
     end
-end
 
+end

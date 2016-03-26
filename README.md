@@ -1,7 +1,17 @@
 # MySQL HA ansible-tutorial
 
-Taken and adapted from robertbarabas/ansible-tutorial
+Taken and adapted from robertbarabas/ansible-tutorial  
 https://github.com/robertbarabas/ansible-tutorial/tree/master/demo
+
+## Getting started
+
+You need to have Vagrant, Virtualbox and Ansible installed
+
+- `vagrant up` will create a master and a slave and provision both  
+- `ansible-playbook site.yml` will provision both nodes, incl. the database (MySQL's "sakila" database)
+
+master has IP-address 192.168.10.100  
+slave has IP-address 192.168.10.101
 
 ## Check master and slave status
 
