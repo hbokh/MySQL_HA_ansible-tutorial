@@ -1,0 +1,3 @@
+- include: plays/setup_server.yml
+- include: plays/setup_sakila.yml
+- include: plays/clone_mysql.yml
