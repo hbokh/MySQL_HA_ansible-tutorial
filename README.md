@@ -7,7 +7,7 @@ https://github.com/robertbarabas/ansible-tutorial/tree/master/demo
 
 You need to have Vagrant, Virtualbox and Ansible installed
 
-- `vagrant up` will create a master and a slave and provision both  
+- `vagrant up` will create 2 VMs: a master and a slave
 - `ansible-playbook site.yml` will provision both nodes, incl. the database (MySQL's "sakila" database)
 
 master has IP-address 192.168.10.100  
